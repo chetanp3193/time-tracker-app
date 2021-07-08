@@ -10,7 +10,7 @@ class HomeController extends Controller
     /**
      * @Route("/home", name="home")
      */
-    public function index()
+    // public function index()
     {
         return $this->render('home/home.html.twig');
     }
